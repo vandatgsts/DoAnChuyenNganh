@@ -22,6 +22,7 @@ run program:
  - import file dataset with 4 column: 'Upstream water level','Downstream water level','Inflow rate','outflow_rate'
    (If there is no data set, the system will use the available data)
  - create model before forecast
+   ![img_4.png](img_4.png)
  - input 3 value: 'Upstream water level','Downstream water level','Inflow rate'
  - click button: 'Forecast'
   ![img_3.png](img_3.png)

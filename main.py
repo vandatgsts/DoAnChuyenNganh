@@ -30,7 +30,7 @@ def run_model_script():
     path = file_path if file_path else 'data\\dataset.csv'
     newmodel = model.Model(path)
     newmodel.create_model()
-    messagebox.showinfo("Thông báo", "Model đã được chạy thành công với " + path)
+    messagebox.showinfo("Notice", "The model is created with" + path)
 
 
 def forecast():
