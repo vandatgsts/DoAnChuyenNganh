@@ -28,7 +28,7 @@ run program:
 
 Note Decal Data
 
-% upstream_water_level : depth of water upstream in metres
-% downstream_water_level : depth of water downstream in metres
-% inflow_rate : reservoir water inflow rate in cubic metres per second
-% outflow_rate : reservoir water outflow rate in cubic meters per second
+- upstream_water_level : depth of water upstream in metres
+- downstream_water_level : depth of water downstream in metres
+- inflow_rate : reservoir water inflow rate in cubic metres per second
+- outflow_rate : reservoir water outflow rate in cubic meters per second
