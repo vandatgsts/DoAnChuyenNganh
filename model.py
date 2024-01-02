@@ -2,6 +2,7 @@ import pickle
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
 
 
 class Model:
@@ -15,6 +16,7 @@ class Model:
         df_numeric = df.select_dtypes(include=['number'])
         df_cleaned = df_numeric.dropna()
         self.X = df_cleaned[['upstream_water_level', 'downstream_water_level', 'inflow_rate']]
+        self.X = StandardScaler().fit_transform(self.X)
         self.y = df_cleaned['outflow_rate']
 
     def train(self):
